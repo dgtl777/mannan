@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 14</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: url(https://cdn.pixabay.com/photo/2017/09/16/16/09/sea-2755908__340.jpg);
+            background-size: 100% 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: yellow;
+        }
+
+        form {
+            width: 400px;
+            height: 370px;
+            background-color: rgba(255, 255, 255, .6);
+            border-radius: 10px;
+            margin: auto;
+            box-shadow: 0px 0px 10px yellow;
+            margin-top: 150px;
+            padding: 20px;
+            border: 10px solid yellow;
+        }
+
+        #email,
+        #pass,
+        #login,
+        button {
+            width: 100%;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, .2);
+        }
+
+        #login {
+            background-color: orange;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            border: 3px dotted yellow;
+        }
+
+        button {
+            width: 70%;
+            background-color: orangered;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            border: 4px dotted yellow;
+        }
+
+        a {
+            color: royalblue;
+            text-decoration: none;
+        }
+
+        div {
+            border-top: 1px solid rgba(0, 0, 0, .2);
+        }
+
+        p {
+            font-size: 24px;
+            color: tomato;
+        }
+
+        #text {
+            font-size: 16px;
+        }
+
+        #create {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MyBook</h1><br><br>
+        <p>MyBook Is The #1 Social Media Site!<br>Join Today!</p>
+    </header>
+    <form action="https://www.facebook.com/">
+        <input id="email" type="email" placeholder="Email address or phone number" required><br><br>
+        <input id="pass" type="password" minlength="8" placeholder="Password" required><br><br>
+        <input id="login" type="submit" value="Log In"><br><br>
+        <a href="">Forgotten password?</a><br><br>
+        <div><br>
+            <button>Create New Account</button>
+        </div>
+    </form><br>
+    <p id="text"><a id="create" href="">
+            <b>create a page</b></a> for a celebrity,
+        band or business</p>
+
+</body>
+
+</html>
