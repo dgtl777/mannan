@@ -1,0 +1,41 @@
+body {
+  background: url(https://cdn.pixabay.com/photo/2015/09/21/14/24/supermarket-949913__480.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+h1 {
+  background-color: cornsilk;
+}
+nav {
+  height: 60px;
+  background-color: palevioletred;
+  display: flex;
+  align-items: center;
+}
+ul {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+}
+li {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 2px dotted white;
+}
+table {
+  background-color: rgb(255, 153, 102);
+}
+p {
+  background-color: cornsilk;
+}
+h2 {
+  background-color: cornsilk;
+}
+form {
+  background-color: cornsilk;
+}
+marquee {
+  background-color: yellow;
+  font-size: 28px;
+}
